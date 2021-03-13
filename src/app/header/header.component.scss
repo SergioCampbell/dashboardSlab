@@ -1,0 +1,53 @@
+.navBar{
+    li{
+        list-style: none;
+    }
+
+        background: rgba(0, 0, 107, 0.836);
+        //height: 10vh;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+
+        a{
+            text-decoration: none;        
+        }
+
+        .nav-collapse{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+}
+
+@media (max-width: 780px) {
+    .nav{
+        height: auto;
+        border: 0;
+        display: block;
+
+        .nav-collapse{
+            height: 45px;
+            border-bottom: 1px solid #f1f1;
+        }
+    }
+
+}
+
+.logo{
+    margin: 10px 100px 10px 50px;
+    color: white;
+}
+
+
+.bg-blueDark{
+    background: linear-gradient(120deg, rgb(5, 5, 141), rgb(1, 1, 73));
+}
+
+.nav-element{
+        margin: 0 50px 0 20px;
+        width: auto;
+        font-size: x-large;
+        
+    }

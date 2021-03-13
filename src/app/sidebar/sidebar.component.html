@@ -1,0 +1,14 @@
+<div class="contenedor" *ngIf="show">
+
+    <div class="col ocultar">
+
+        <ul class="sidebar " *ngFor="let sidebar of sidebar">
+            <a href="#" >
+                <li key={sidebar.id}><img [src]="sidebar.path" class="img-sdb"/> {{sidebar.name}}</li>
+            </a>
+        </ul>        
+        
+    </div>
+
+</div>
+<button class="btn-hider" (click)="show=!show"> <i class="fas fa-arrow-left"></i> </button>

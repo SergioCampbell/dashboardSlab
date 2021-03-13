@@ -1,0 +1,78 @@
+.bg-content{
+    background: url('https://cdn.wallpapersafari.com/68/66/Xy0wJ5.jpg') 55%, no-repeat;
+}
+
+@media (max-width: 100%){
+    .containers{
+        background: rgba(79, 79, 204, 0.699);
+        float: right;
+    }
+}
+
+
+.box{
+    background: linear-gradient(90deg, rgba(86, 86, 187, 0.473), rgba(0, 0, 255, 0.493));
+    border-radius: 20px;
+    border: solid;
+    border-color: rgb(1, 14, 56);
+    color: white;
+    margin: 5px 0 5px 5px;
+    padding: 0 20px 0 0;
+
+    h3{
+        color: rgb(0, 223, 223);
+        margin-left: -35px;
+    }
+
+    h3::after{
+        content: 'Covid-19';
+    }
+
+    .svg-demo{
+        margin: 0 10px 0 -10px;
+        color: rgb(0, 255, 255);
+    }
+
+    i{
+        font-size: 1em;
+        margin: 10px
+    }
+
+}
+
+.box-content{
+    padding-left: 140px;
+    margin-top: -150px;
+
+}
+
+/*cards*/
+
+.done{ 
+    background: rgba(240, 255, 255, 0.158);
+    
+    h6{
+        color: purple;
+    }
+}
+
+.pending{
+    background: rgba(240, 255, 255, 0.158);
+    
+    h6{
+        color: rgb(32, 228, 228);
+    }
+
+}
+
+.covid{
+    padding: 7em 1em 0 3em;
+    width: 20em;
+    height: 10em;
+}
+
+ @media screen and (max-width: 600px) {
+    .covid{
+        visibility: hidden ;
+    }
+}
